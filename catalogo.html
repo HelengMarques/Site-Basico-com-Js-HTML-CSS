@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosméticos H&H</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="home.html">Menu</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="horario.html">Horário de atendimento<a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+
+                <p style="text-align:center;"><img title="Logotipo" alt="borboleta" src="Cosméticos H&H.png" width="200px" height="200px"></p>
+
+            </div>
+
+            <div class="content">
+                <div class="indice">
+                    <h1 id="inicio"><i>Catálogo</i></h1>
+                    <ul>
+                        <li><a href="#base"><button class="botao" type="button">BASE</button></a></li><br/>
+                        <li><a href="#po"><button class="botao" type="button" >PÓ SOLTO</button></a></li><br/>
+                        <li><a href="#paleta"><button class="botao" type="button" >PALETA DE SOMBRAS</button></a></li><br/>
+                        <li><a href="#batom"><button class="botao" type="button" >BATOM</button></a></li><br/>
+                        <li><a href="#ilum"><button class="botao" type="button" >ILUMINADOR</button></a></li><br/>
+                    </ul>
+
+                    <br/>
+                    <br/>
+                    <br/>
+                </div>
+                <section id="lista-produtos">
+                    <ul>
+                        <li>
+                            <div class="produtos">
+                                <div class="base">
+                                    <h3 id="base"><i>Base</i></h3>
+                                    <img src="bases.png" width="250px" height="250px">
+                                    <p>Descrição</p>
+                                    <p>Base: maquiagem com pele incrível usando</p>
+                                    <p>um único item, super importante para quem</p>
+                                    <p>deseja conquistar um aspecto uniforme.</p>
+                                    <span>Base Matte Boca Rosa ...............R$ 79,99</span>
+                                    <div class="add-carrinho">
+                                        <button onclick="adicionarItemCarrinho(1,false)" type="button">Adicionar</button>
+                                    </div>
+                                </div>
+
+                                <div class="po">
+                                    <h3 id="po"><i>Pó solto</i></h3>
+                                    <img src="po_compacto.png" width="250px" height="250px">
+                                    <p>Descrição</p>
+                                    <p>Pó é essencial para fazer uma linda maquiagem</p>
+                                    <p>no momento da preparação da pele. Por isso, é</p>
+                                    <p>importante ter atenção com cada produto escolhido,</p>
+                                    <p>a fim de garantir o efeito desejado, ou seja,</p>
+                                    <p>aquela pele dos sonhos!</p>
+                                    <span>Pó Solto Boca Rosa...............R$ 59,99</span>
+                                    <div class="add-carrinho">
+                                        <button onclick="adicionarItemCarrinho(2,false)" type="button">Adicionar</button>
+                                    </div>
+                                </div>
+
+                                <div class="paleta">
+                                    <h3 id="paleta"><i>Paleta de Sombras</i></h3>
+                                    <img src="paleta_sombras.png" width="250px" height="250px">
+                                    <p>Descrição</p>
+                                    <p>Paleta de Sombras Boca Rosa compacta e versátil,</p>
+                                    <p>apresenta 6 cores neutras, sendo 3 cintilantes</p>
+                                    <p>e 3 opacas, com toque levemente aveludado.</p>
+
+                                    <span>Paleta De Sombras Boca Rosa .................R$ 139,99</span>
+                                    <div class="add-carrinho">
+                                        <button onclick="adicionarItemCarrinho(3,false)" type="button">Adicionar</button>
+                                    </div>
+                                </div>
+
+                                <div class="batom">
+                                    <h3 id="batom"><i>Batom</i></h3>
+                                    <img src="batom.png" width="250px" height="250px">
+                                    <p>Descrição</p>
+                                    <p>Um Batom Boca Rosa é indispensável para</p>
+                                    <p>make perfeita! Suas linhas existem nas</p>
+                                    <p>mais infinitas cores e em MUITOS acabamentos.</p>
+
+                                    <span>Batom Matte Líquido Boca Rosa ...............R$ 69,99</span>
+                                    <div class="add-carrinho">
+                                        <button onclick="adicionarItemCarrinho(4)" type="button">Adicionar</button>
+                                    </div>
+                                </div>
+
+                                <div class="ilumi">
+                                    <h3 id="ilum"><i>Iluminador</i></h3>
+                                    <img src="iluminador.png" width="250px" height="250px">
+                                    <p>Descrição</p>
+                                    <p>Iluminador compacto, possui partículas iluminadoras</p>
+                                    <p>ultrafinas que realçam o glow natural da pele.</p>
+
+                                    <span>Iluminador Em Pó Boca Rosa ...............R$ 59,99</span>
+                                    <div class="add-carrinho">
+                                        <button onclick="adicionarItemCarrinho(5,false)" type="button">Adicionar</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <a href="#inicio"><button type="button">Voltar para o topo &#8682</button></a>
+            </div>
+
+            <div class="footer">
+                <h3>Contatos</h3>
+                <a href="tel:5511979682646">Telefone: (11)9 7968 2646<img src="https://icons.iconarchive.com/icons/glyphish/glyphish/16/75-phone-icon.png"></a>
+                <p>@Cosméticos_H&H <img src="https://icons.iconarchive.com/icons/icons8/ios7/16/Logos-Instagram-icon.png"></p>
+                <p>cosmeticos.heh@gmail.com<img src="https://icons.iconarchive.com/icons/custom-icon-design/mono-general-2/16/mail-icon.png"></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</body>
+
+</html>

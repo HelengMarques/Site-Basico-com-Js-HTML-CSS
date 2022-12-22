@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosméticos H&H</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="home.html">Menu</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+
+                <p style="text-align:center;"><img title="Logotipo" alt="borboleta" src="Cosméticos H&H.png" width="200px" height="200px"></p>
+
+            </div>
+
+            <div class="content">
+
+                <h1><i> Formulário de Cadastro </i></h1>
+                <form>
+                    <fieldset>
+                        <legend>Informações Pessoais</legend>
+                        <label>NOME:    </label><input type="text" name="name" id="nome" required><br>
+                        <br/>
+                        <label>EMAIL:   </label><input type="email" name="email" id="email" required><br>
+                        <br/>
+                        <label>CPF:     </label><input type="text" name="cpf" id="cpf" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" required><br>
+                        <br/>
+                        <label>TELEFONE:</label><input type="tel" name="tel" id="tel" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"><br>
+                        <br/>
+                    </fieldset>
+                    <br/>
+                    <fieldset>
+                        <legend>Informações para Entrega</legend>
+                        <br/>
+                        <label>CEP:     </label><input type="text" name="cep" id="cep" required><br>
+                        <br/>
+                        <label>ENDEREÇO:</label><input type="text" name="endereco" id="endereco" required><br>
+                        <br/>
+                        <label>NÚMERO:     </label><input type="text" name="numero" id="numero" required><br>
+                        <br/>
+                        <label>BAIRRO:     </label><input type="text" name="bairro" id="bairro" required><br>
+                        <br/>
+                        <label>CIDADE:     </label><input type="text" name="cidade" id="cidade" required><br>
+                        <br/>
+                        <label>ESTADO:     </label><input type="text" name="estado" id="estado" required><br>
+                        <br/>
+                        <br/>
+                    </fieldset>
+
+                    <br/>
+                    <br/>
+
+                    <button type="button" name="limpar" id="salvar">Salvar</button>
+                    <button type="reset" name="lim" id="limpar">Limpar</button>
+                    <br/>
+                    <br/>
+
+                </form>
+
+            </div>
+
+            <div class="footer">
+                <h3>Contatos</h3>
+                <a href="tel:5511979682646">Telefone: (11)9 7968 2646<img src="https://icons.iconarchive.com/icons/glyphish/glyphish/16/75-phone-icon.png"></a>
+                <p>@Cosméticos_H&H <img src="https://icons.iconarchive.com/icons/icons8/ios7/16/Logos-Instagram-icon.png"></p>
+                <p>cosmeticos.heh@gmail.com<img src="https://icons.iconarchive.com/icons/custom-icon-design/mono-general-2/16/mail-icon.png"></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</body>
+
+</html>

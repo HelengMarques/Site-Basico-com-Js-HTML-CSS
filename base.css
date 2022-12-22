@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1500px;
+    display: flex;
+    margin: 10 auto;
+    background-color: rgb(229, 171, 233);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.menu {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+    font-size: 20px;
+    width: 15%;
+    background-color: rgb(252, 149, 183);
+    padding: 90px 50px 50px;
+}
+.header {
+    background-color: rgb(253, 200, 203);
+    width: 1200px;
+    height: 200px;
+}
+.content {
+    background-color: white;
+    min-height: 1000px;
+    padding: 100px;
+    
+    
+}
+.footer {
+    background-color: rgba(236, 238, 237, 0.856);
+    min-height: 200px;
+    font-size: 15px;
+    width: 1200px;
+}
+
+label {
+	width:70px;
+	margin: 3px 0;
+}
+
+input {
+	width: 150px;
+}    
+
+.produtos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 15px;
+}
+
+.sobre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 15px;
+}
+
+
+.base{
+    margin: 1px 799px 75px 1px;
+    border-width: 10px; 
+    border-style: double; 
+    border-color:  rgba(173, 89, 148, 0.5);
+    color: rgb(0, 0, 0) ;
+}
+
+.po{
+    margin: 1px 799px 75px 1px;
+    border-width: 10px; 
+    border-style: double; 
+    border-color:  rgba(173, 89, 148, 0.5);
+    color: rgb(0, 0, 0) ;
+}
+
+.paleta{
+    margin: 1px 799px 75px 1px;
+    border-width: 10px; 
+    border-style: double; 
+    border-color:  rgba(173, 89, 148, 0.5);
+    color: rgb(0, 0, 0) ; 
+}
+
+.batom{
+    margin: 1px 799px 75px 1px;
+    border-width: 10px; 
+    border-style: double; 
+    border-color:  rgba(173, 89, 148, 0.5);
+    color: rgb(0, 0, 0) ;
+}
+
+.ilumi{
+    margin: 1px 799px 75px 1px;
+    border-width: 10px; 
+    border-style: double; 
+    border-color:  rgba(173, 89, 148, 0.5);
+    color: rgb(0, 0, 0) ;
+}
+
+h3{
+    text-align: center;
+}
+
+.botao {
+    border-color: #ecc4ed;;
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(253, 200, 203) inset, 0 0 0 0 #95317f;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .botao:hover {
+    box-shadow: 0 0 10px 0 #e12470 inset, 0 0 10px 4px #df1c6d;
+  }
